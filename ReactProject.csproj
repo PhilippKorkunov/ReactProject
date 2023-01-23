@@ -34,11 +34,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DataBaseLibrary\DataBaseLibrary.csproj" />
+    <Folder Include="ClientApp\src\pages\" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="ClientApp\src\pages\" />
+    <ProjectReference Include="..\DataBaseLib\DataBaseLib.csproj" />
   </ItemGroup>
 
   <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">

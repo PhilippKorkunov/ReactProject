@@ -1,4 +1,4 @@
-﻿using DataBaseLibrary.Entyties;
+﻿using DataBaseLib.Entyties;
 using Newtonsoft.Json;
 using System.Text;
 using System.Text.Json;

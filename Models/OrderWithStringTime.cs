@@ -1,4 +1,4 @@
-﻿using DataBaseLibrary.Entyties;
+﻿using DataBaseLib.Entyties;
 
 namespace ReactProject.Models
 {
